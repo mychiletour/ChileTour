@@ -1,5 +1,8 @@
-body{
+html,body
+{
+    overflow-x: hidden; 
 }
+
 
 #header{
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Santiago_de_Chile_de_noche.jpg);
