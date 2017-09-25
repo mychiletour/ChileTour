@@ -1,49 +1,27 @@
-<!DOCTYPE html>
-<head>
-  <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
-	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-	$(".navbar").affix({offset: {top: $("header").outerHeight(true)} });
-	$("#tour").hide();
-	$("#entretenimiento").hide();
-	
-     $("#s1").click(function(){
-       $("#tour").hide();
-	$("#entretenimiento").hide();
-			 $("#vina").show();
-			 
-    });
-    $("#s2").click(function(){
-        $("#tour").show();
-	$("#entretenimiento").hide();
-			 $("#vina").hide();
-});
-});
-	</script>
-</head>
-<html>
-
 <div id='page'>
  <div class="container-fluid" id='header'>
   <img id='logo' src='http://chiletourtransportes.cl/img/logo3.png'>
  </div>
-
-<nav class="navbar navbar-inverse">
-  <ul class="nav navbar-nav">
-    <li class="active"><a  href="#page">ChileTour</a></li>
-    <li><a id="s1" href="#vina">Vinas</a></li>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ChileTour</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a id="s1" href="#vina">Vinas</a></li>
     <li><a id="s2" href="#tour">Tour</a></li>
     <li><a id="s3" href="#contacto">Contacto</a></li>
-  </ul>
-</nav> 
+      </ul>
+    </div>
+  </div>
+</nav>
 
  <div class='section' id='vina'>
   <h1>Viñas <hr></h1>
@@ -236,6 +214,3 @@ $(document).ready(function(){
  </div>
 	
 	</div>
-
-
-</htmtl>
