@@ -30,14 +30,6 @@ html,body
 	z-index: 9999;
 }
 
-  .affix {
-      top: 0;
-      width: 100%;
-  }
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
-
 .section{
 	padding: 2% 5% 2% 5%;
 	
