@@ -1,6 +1,15 @@
 html,body
 {
     overflow-x: hidden; 
+	font-family: 'Arimo', sans-serif;
+}
+
+#page{
+	background: #CC4738;
+}
+.bkgnd{
+	margin: 5px;
+	background: white;
 }
 
 #first{
@@ -43,6 +52,7 @@ html,body
 .section h1{
 	text-align: center;
 	font-size: 3em;
+	font-family: 'Acme', sans-serif;
 }
 
 .title{
@@ -50,9 +60,15 @@ html,body
 	text-align: center;
 	padding-bottom: 1%;
 	padding-top: 2%;
+	font-family: 'Fjalla One', sans-serif;
 }
 
-.itemtext{
+hr{
+background-color: #aaa;
+height: 1px;
+}
+
+.-color: black;itemtext{
 	border: 2px #ccc solid;
 	border-radius: 20px;
 	padding: 2%;
@@ -61,21 +77,72 @@ html,body
 	font-size: 1.2em;
 }
 
+.itemtext{
+	border: 1px solid #ccc;
+    border-radius: 10px;
+	text-align: justify;
+	padding: 10px 20px;
+	font-size: 105%;
+	background-color: rgba(255,255,255,0.35);
+}
+
+.subtit{
+	font-size: 150%;
+	font-family: 'Fjalla One', sans-serif;
+}
+
 .descripcion{
+	text-indent: 20px;
+	margin-top:5%;
 }
 
 .extra{
 	position: relative;
-	margin-top: 3%;
+
 }
 
 .incluye{
 	width:100%;
-	margin-bottom:4%;
 }
 
 .opcional{
 	width:100%;
+}
+
+
+.vmaipo:hover{
+	color: black;
+	cursor: pointer;
+}
+
+.vcasa:hover{
+	color: black;
+	cursor: pointer;
+}
+
+.vcolcha:hover{
+	color: black;
+	cursor: pointer;
+}
+
+#vmaipo{
+	display: none;
+}
+
+#vcasa{
+	display: none;
+}
+
+#vcolcha{
+	display:none;
+}
+
+#pre:hover{
+	color:black;
+	cursor:pointer;
+}
+#preguntas{
+	display:none;
 }
 
 .imgdim{	
@@ -100,12 +167,29 @@ html,body
 }
 
 #footer{
-	background-color: gray;
+	background-color: #047ca4;
 	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+#footer h2{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.col-md-4{
 	text-align: center;
 }
 
 #lang{
 	position: relative;
 	left: 45%
+}
+
+#dev a{
+	color: #ff6117;
+	font-weight: bold;
+}
+
+#dev a:hover{
+	color: #993a0d;
 }
