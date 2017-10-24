@@ -1,8 +1,9 @@
 $(document).ready(function() {
 	
-	$("#sant").hide();
-	$("#vina").show();
+	$("#sant").show();
+	$("#vina").hide();
 	$("#ski").hide();
+	$("#playa").hide();
 	$("#ent").hide();
 	$("#nos").hide();
 	$("#molde").hide();
@@ -10,6 +11,7 @@ $(document).ready(function() {
 	$("#s1").click(function() {
 	$("#vina").hide();
 	$("#ski").hide();
+	$("#playa").hide();
 	$("#ent").hide();
 	$("#nos").hide();
 		$("#sant").show();
@@ -18,6 +20,7 @@ $(document).ready(function() {
 	$("#s2").click(function() {
 	$("#sant").hide();
 	$("#ski").hide();
+		$("#playa").hide();
 	$("#ent").hide();
 	$("#nos").hide();
 		$("#vina").show();
@@ -26,31 +29,64 @@ $(document).ready(function() {
 		$("#s3").click(function() {
 			$("#sant").hide();
 	$("#vina").hide();
+			$("#playa").hide();
 	$("#ent").hide();
 	$("#nos").hide();
 		$("#ski").show();
 	});
 	
-		$("#s4").click(function() {
+	$("#s4").click(function() {
 	$("#sant").hide();
 	$("#vina").hide();
 	$("#ski").hide();
 	$("#nos").hide();
-		$("#ent").show();
+		$("#ent").hide();
+		$("#playa").show();
+		
 	});
 	
 		$("#s5").click(function() {
 	$("#sant").hide();
 	$("#vina").hide();
 	$("#ski").hide();
+			$("#playa").hide();
+	$("#nos").hide();
+		$("#ent").show();
+	});
+	
+		$("#s6").click(function() {
+	$("#sant").hide();
+	$("#vina").hide();
+			$("#playa").hide();
+	$("#ski").hide();
 	$("#ent").hide();
 		$("#nos").show();
 	});
 	
+	$(".vmaipo").click(function(){
+            $("#vmaipo").slideToggle();
+    var $this = $('.toggm');
+    var toggled = $this.hasClass("fa-chevron-circle-down");
+    $this.toggleClass("fa-chevron-circle-up fa-chevron-circle-down");
+});
 	
-	    jQuery('#hideshow').live('click', function(event) {        
-         jQuery('#content').toggle('show');
-    });
+	$(".vcasa").click(function(){
+            $("#vcasa").slideToggle();
+		var $this = $('.toggc');
+    var toggled = $this.hasClass("fa-chevron-circle-down");
+    $this.toggleClass("fa-chevron-circle-up fa-chevron-circle-down");
+        });
+	
+	$(".vcolcha").click(function(){
+            $("#vcolcha").slideToggle();
+		var $this = $('.toggco');
+    var toggled = $this.hasClass("fa-caret-square-o-down");
+    $this.toggleClass("fa-chevron-circle-up fa-chevron-circle-down");
+        });
+	
+	$("#pre").click(function(){
+            $("#preguntas").slideToggle();
+        });
+	
 	
 });
-
