@@ -167,17 +167,17 @@ height: 1px;
 }
 
 #footer{
-	background-color: #047ca4;
+	background-color: #5C6BC0;
 	padding: 20px 20px 20px 20px;
 	text-align: center;
 }
 
-#footer h2{
-	font-family: 'Fjalla One', sans-serif;
+#footer .itemtext{
+	background-color: rgba(255,255,255,0.75);
 }
 
-.col-md-4{
-	text-align: center;
+#footer h2{
+	font-family: 'Fjalla One', sans-serif;
 }
 
 #lang{
