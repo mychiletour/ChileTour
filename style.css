@@ -82,6 +82,11 @@ height: 1px;
 	font-size: 1.2em;
 }
 
+
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
 .itemtext{
 	border: 1px solid #ccc;
     border-radius: 10px;
@@ -99,6 +104,25 @@ height: 1px;
 .descripcion{
 	text-indent: 20px;
 	margin-top:5%;
+}
+
+.precios{
+	background-color: #5C6BC0;
+	font-weight: bold;
+	color: white;
+	width: 26%;
+	height:8%;
+	font-size: 3.4vw;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	display:table-cell;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 0;
+	border: 2px solid;
+	z-index: 1;
 }
 
 .extra{
@@ -187,11 +211,27 @@ height: 1px;
 
 .icon{
 	font-size: 250%;
+	color: #CC4738;
+}
+
+.red{
+	color: #404a86;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+.red:hover{
+	color: #9da6d9;
 }
 
 .pay{
 	text-align: center;
 	
+}
+
+.pay img{
+	max-width: 100%;
+    height: auto;
 }
 
 #lang{
