@@ -4,12 +4,17 @@ html,body
 	font-family: 'Arimo', sans-serif;
 }
 
+nav .container-fluid{
+	background-color: rgba(58, 68, 122, 0.50);
+	font-weight: bold;
+}
+
 #page{
 	background: #CC4738;
 }
 .bkgnd{
 	margin: 5px;
-	background: white;
+	background: #eee;
 }
 
 #first{
@@ -83,7 +88,7 @@ height: 1px;
 	text-align: justify;
 	padding: 10px 20px;
 	font-size: 105%;
-	background-color: rgba(255,255,255,0.35);
+	background-color: rgb(255,255,255);
 }
 
 .subtit{
@@ -178,6 +183,15 @@ height: 1px;
 
 #footer h2{
 	font-family: 'Fjalla One', sans-serif;
+}
+
+.icon{
+	font-size: 250%;
+}
+
+.pay{
+	text-align: center;
+	
 }
 
 #lang{
