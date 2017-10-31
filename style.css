@@ -87,6 +87,31 @@ height: 1px;
     width: 100%;
 }
 
+#mess{
+	position: absolute;
+	right: 5%;
+	background: #CC4738;
+	border-radius: .4em;
+	margin-top: -2%;
+	color: white;
+	padding: 0 5px;
+	
+}
+
+#mess:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-bottom-color: #CC4738;
+	border-top: 0;
+	margin-left: -5px;
+	margin-top: -5px;
+}
+
 .itemtext{
 	border: 1px solid #ccc;
     border-radius: 10px;
@@ -123,6 +148,12 @@ height: 1px;
 	border-radius: 0;
 	border: 2px solid;
 	z-index: 1;
+	
+	-webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+	cursor: pointer;
 }
 
 .extra{
