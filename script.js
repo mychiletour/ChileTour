@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	var pesos = true;
 var exchange = 620;
+	var precio;
+	var resultado;
+	
 	$("#sant").show();
 	$("#vina").hide();
 	$("#ski").hide();
@@ -89,8 +92,8 @@ var exchange = 620;
 	});
 	
 	
+
 	$(".precios").click(function() {
-		$('#mess').hide();
 		if (pesos == true) {
 			precio = $(".precios").text().replace(/[^0-9]/gi, '');
 			precio /= exchange;
@@ -105,3 +108,4 @@ var exchange = 620;
 		}
 	});
 });
+
