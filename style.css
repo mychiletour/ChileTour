@@ -24,7 +24,7 @@ nav .container-fluid{
 }
 
 #header{
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Santiago_de_Chile_de_noche.jpg);
+	background-image: url('chiletour/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;  
   background-attachment: fixed;
