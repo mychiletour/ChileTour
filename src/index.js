@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import AppRouter from './routers/AppRouter';
 import * as serviceWorker from './serviceWorker';
+import Santiago from './components/Santiago';
+import Header from './components/Header';
+import 'normalize.css';
+import './styles/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Santiago />
   </React.StrictMode>,
   document.getElementById('root')
 );
