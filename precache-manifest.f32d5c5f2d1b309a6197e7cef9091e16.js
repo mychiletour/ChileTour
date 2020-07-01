@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b7638084beeb582252bb4425c3cb7d6",
+    "revision": "8cd773947289c24815af29c85261ef08",
     "url": "/ChileTour/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ChileTour/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "192380e2ca15801cbfd5",
-    "url": "/ChileTour/static/css/main.f3243cc4.chunk.css"
+    "revision": "ab64a14d44d095a45deb",
+    "url": "/ChileTour/static/css/main.7e342c69.chunk.css"
   },
   {
     "revision": "98e5bd2cf6c96fc6fb11",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ChileTour/static/js/2.6cca2f50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "192380e2ca15801cbfd5",
-    "url": "/ChileTour/static/js/main.875b6cd4.chunk.js"
+    "revision": "ab64a14d44d095a45deb",
+    "url": "/ChileTour/static/js/main.e93add1f.chunk.js"
   },
   {
     "revision": "97a042c3b913c5a6941e",
