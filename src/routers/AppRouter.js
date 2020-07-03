@@ -1,20 +1,19 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from '../components/Header';
+import Santiago from '../components/Santiago';
 
+const AppRouter = () => (
+    <BrowserRouter>
+        <div>
+            <Switch>
+                <Header />
+                <Route path="/" exact>
+                    <Santiago />
+                </Route>
+            </Switch>
+        </div>
+    </BrowserRouter>
+);
 
-//solo puede tener un elemento el browserRouter, por eso todo va dentro del div
-// const AppRouter = () => (
-//     <BrowserRouter>
-//         <div>
-//             <Switch>
-//                 <Route path="/Portfolio" component={HomePage} exact={true} />
-//                 <Route path="/Portfolio/about" component={AboutPage} />
-//                 <Route path="/Portfolio/work" component={WorkPage} />
-//                 <Route path="/Portfolio/contact" component={ContactPage} />
-//                 <Route component={NotFoundPage} />
-//             </Switch>
-//         </div>
-//     </BrowserRouter>
-// );
-
-// export default AppRouter;
+export default AppRouter;

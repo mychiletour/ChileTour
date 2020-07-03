@@ -1,0 +1,14 @@
+.carousel {
+    margin: auto;
+    width: 90%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: $xl-size;
+    height: $xl-size;
+}
+
+.carousel-indicators li {
+    width: 4.8rem;
+    height: 0.32rem;
+}

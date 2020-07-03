@@ -1,0 +1,35 @@
+#item--email {
+    color: #DB4437;
+}
+
+#item--whatsapp {
+    color: #1da851;
+}
+
+.navbar {
+    box-shadow: 0px 5px 20px 0px rgba(181, 181, 181, 0.5);
+    margin-bottom: 15px;
+}
+
+.navbar-toggler{
+    font-size: $l-size;
+    padding: 10px 0;
+}
+
+
+.navbar-ite {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu{
+    font-size: $s-size;
+}

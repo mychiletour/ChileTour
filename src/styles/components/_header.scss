@@ -1,73 +1,37 @@
+
 .header-background {
+    height: calc(100vh - 40px);
+    position: relative;
+}
+
+.header-background__container {
     align-items: center;
-    background-image: url("/images/Header/background.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     height: calc(100vh - 40px);
     justify-content: center;
+    position: absolute;
     width: 100%;
+    z-index: 3;
+}
+
+.header-background__image {
+    height: 100%;
+    position: absolute;
+    width:100%;
 }
 
 .header-background p {
     color: white;
     font-size: 5vw;
     font-weight: bold;
+    margin: 0;
     margin-top: 3vh;
     text-shadow: 2px 2px 4px #000;
-    
+    z-index: 3;
 }
 
 .header-logo {
     width: 30vw;
-
 }
 
-.header-nav {
-    background-color: transparent;
-    box-shadow: 0px 5px 20px 0px rgba(181, 181, 181, 0.5);
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: $m-size;
-    height: 40px;
-    justify-content: space-evenly;
-}
-
-.header-nav-item {
-    align-items: center;
-    display: flex;
-    flex-grow: 6;
-    flex-shrink: 0;
-    justify-content: space-around;
-}
-
-.header-nav-item .item {
-    cursor: pointer;
-    padding: 0 1vw;
-    transition: all 0.3s ease-in-out 0s;
-    width: 100%;
-}
-
-.header-nav-item .item:hover {
-    background-color: $red;
-    color: white;
-}
-
-.header-nav-item--right {
-    align-items: center;
-    display: flex;
-    flex-grow: 4;
-    justify-content: flex-end;
-}
-
-.header-nav-item--right .item {
-    margin-right: 2vw;
-}
-
-.item {
-    height: 100%;
-    line-height: 40px;
-    text-align: center;
-}

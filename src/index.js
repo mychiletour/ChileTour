@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import AppRouter from './routers/AppRouter';
+import AppRouter from './routers/AppRouter';
 import * as serviceWorker from './serviceWorker';
-import Santiago from './components/Santiago';
-import Header from './components/Header';
 import 'normalize.css';
 import './styles/styles.scss';
+import Santiago from "./components/Santiago";
+import Header from './components/Header';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+  <Header />
     <Santiago />
   </React.StrictMode>,
   document.getElementById('root')

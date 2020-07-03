@@ -1,0 +1,27 @@
+.card {
+    padding: $s-size;
+}
+
+.card-container {
+    margin: 20px 10vw;
+}
+
+.card-extra {
+    padding: 0;
+    margin: 3vh 0;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-title {
+    color: $blue;
+    font-size: $xl-size;
+    font-weight: 800;
+    margin: 3vh 0;
+    padding-left: 3vw; 
+}
+
+
+

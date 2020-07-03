@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Card from '../components/Card';
+import ItemCard from '../components/ItemCard';
 
 export default class CardAPI extends React.Component {
     constructor(props) {
@@ -24,7 +24,7 @@ export default class CardAPI extends React.Component {
             <div>
                 <section>
                     {this.state.services.map((services, index) =>
-                        <Card
+                        <ItemCard
                             key={index}
                             nombre={services.nombre}
                             descripcion={services.descripcion}
