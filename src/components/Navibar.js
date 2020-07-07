@@ -12,22 +12,13 @@ const Navibar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <NavDropdown className="mr-5" title="Santiago" id="collasible-nav-dropdown">
-                        <NavLink activeClassName="active" className="navlink-item" exact to="/ChileTour">Encargos y Traslados</NavLink>
+                        <NavLink className="navlink-item" exact to="/ChileTour">Encargos y Traslados</NavLink>
                         <NavLink className="navlink-item" to="/ChileTour/SantiagoTours">Tours por Santiago</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Viñedos" id="collasible-nav-dropdown">
-                        <p>Concha y Toro</p>
-                        <p>Santa Rita</p>
-                        <p>Cousiño Macul</p>
-                        <p>Indomita</p>
-                        <p>Casas del Bosque</p>
-                        <p>Matetic</p>
-                        <p>Loma Larga</p>
-                        <p>Lapostolle</p>
-                        <p>Viu Manent</p>
-                        <p>Montes</p>
-                        <p>Montgras</p>
-                        <p>Santa Cruz</p>
+                        <NavLink className="navlink-item" to="/ChileTour/ValleMaipo">Valle del Maipo</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/ValleCasablanca">Valle de Casablanca</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/ValleColchagua">Valle de Colchagua</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Centros de Ski" id="collasible-nav-dropdown">
                         <p>Valle Nevado</p>
