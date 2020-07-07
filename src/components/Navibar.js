@@ -3,7 +3,7 @@ import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navibar = () => {
     return (
@@ -12,9 +12,8 @@ const Navibar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <NavDropdown className="mr-5" title="Santiago" id="collasible-nav-dropdown">
-                        <Link to="/">Traslados y Recepciones</Link>
-                        <p>City Tour</p>
-                        <p>Tour Outlets</p>
+                        <NavLink activeClassName="active" className="navlink-item" exact to="/ChileTour">Encargos y Traslados</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/SantiagoTours">Tours por Santiago</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Viñedos" id="collasible-nav-dropdown">
                         <p>Concha y Toro</p>

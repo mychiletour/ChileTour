@@ -4,13 +4,10 @@ import AppRouter from './routers/AppRouter';
 import * as serviceWorker from './serviceWorker';
 import 'normalize.css';
 import './styles/styles.scss';
-import Santiago from "./components/Santiago";
-import Header from './components/Header';
 
 ReactDOM.render(
   <React.StrictMode>
-  <Header />
-    <Santiago />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,9 +1,44 @@
+.dropdown-menu {
+    font-size: $s-size;
+    padding: 0 1rem;
+    padding-top: 0.5rem;
+}
+
 #item--email {
     color: #DB4437;
 }
 
 #item--whatsapp {
     color: #1da851;
+}
+
+.navlink-item{
+    background-color: transparent;
+    border-bottom: 1px #ccc solid;
+    clear: both;
+    color: $dark-grey;
+    display: block;
+    font-weight: 400;
+    padding: 0.25rem 0;
+    text-align: inherit;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.navlink-item:hover {
+    color: $grey;
+    text-decoration: none;
+}
+
+.navlink-item.active {
+    color: $red;
+    font-weight: bold;
+}
+
+.navlink-item .active:hover {
+    color: $red;
+    filter: brightness(140%);
 }
 
 .navbar {
@@ -14,22 +49,4 @@
 .navbar-toggler{
     font-size: $l-size;
     padding: 10px 0;
-}
-
-
-.navbar-ite {
-    display: block;
-    width: 100%;
-    padding: 0.25rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #212529;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 0;
-}
-
-.dropdown-menu{
-    font-size: $s-size;
 }
