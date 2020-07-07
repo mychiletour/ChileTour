@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ChileTour/precache-manifest.96b54ca30c8158aef86de47911c81f28.js"
+  "/ChileTour/precache-manifest.8d714eddbf334fc6ecd23b989a8b5a48.js"
 );
 
 self.addEventListener('message', (event) => {
