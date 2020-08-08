@@ -5,12 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import 'normalize.css';
 import './styles/styles.scss';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <AppRouter />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

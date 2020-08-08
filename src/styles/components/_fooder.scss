@@ -1,0 +1,57 @@
+.contact-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.creditos {
+    font-size: $s-size;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#item--facebook{
+    color: #3B5998;
+}
+
+#item--instagram {
+    color: #E1306C;
+}
+
+.networks-container {
+    align-content: space-between;
+    display: grid;
+    grid-gap: 0px 30px;
+    grid-template-columns: 6rem 6rem;
+}
+
+.networks-container a {
+    font-size: 6rem;
+    margin: auto;
+}
+
+.payment-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.payment-item {
+    font-size:6rem;
+    margin: 0 10px;
+}
+
+@media (max-width: 990px) {
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

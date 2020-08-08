@@ -19,7 +19,7 @@ const Slideshow = (props) => {
                         className="d-block w-100"
                         src={folderDir + props.imageDir + "/2.jpg"}
                         onError={(e)=>{e.target.onerror = null; e.target.src=`${folderDir + props.imageDir + '/1.jpg'}`}}
-                        alt="Third slide"
+                        alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>

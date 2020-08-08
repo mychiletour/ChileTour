@@ -21,29 +21,29 @@ const Navibar = () => {
                         <NavLink className="navlink-item" to="/ChileTour/ValleColchagua">Valle de Colchagua</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Centros de Ski" id="collasible-nav-dropdown">
-                        <p>Valle Nevado</p>
-                        <p>Farellones</p>
-                        <p>El Colorado</p>
-                        <p>La Parva</p>
-                        <p>Portillo</p>
+                        <NavLink className="navlink-item" to="/ChileTour/ValleNevado">Valle Nevado</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/Farellones">Farellones</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/ElColorado">El Colorado</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/LaParva">La Parva</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/Portillo">Portillo</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Playas y Cruceros" id="collasible-nav-dropdown">
-                        <p>Viña del Mar y Valparaiso</p>
-                        <p>Isla Negra</p>
-                        <p>Cruceros</p>
+                        <NavLink className="navlink-item" to="/ChileTour/Valparaiso">Viña del Mar y Valparaíso</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/IslaNegra">Isla Negra</NavLink>
+                        <NavLink className="navlink-item" to="/ChileTour/Cruceros">Cruceros</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Entretenimientos" id="collasible-nav-dropdown">
-                        <p>Casino Sun Monticello</p>
-                        <p>Casino Enjoy Santiago</p>
-                        <p>Cena Show Bali Hai</p>
-                        <p>Museo de Autos Antiguos</p>
-                        <p>Parque Safari</p>
+                    <NavLink className="navlink-item" to="/ChileTour/Monticello">Casino Sun Monticello</NavLink>
+                    <NavLink className="navlink-item" to="/ChileTour/EnjoySantiago">Casino Enjoy Santiago</NavLink>
+                    <NavLink className="navlink-item" to="/ChileTour/BaliHai">Cena Show Bali Hai</NavLink>
+                    <NavLink className="navlink-item" to="/ChileTour/AutosAntiguos">Museo de Autos Antiguos</NavLink>
+                    <NavLink className="navlink-item" to="/ChileTour/Safari">Parque Safari</NavLink>
                     </NavDropdown>
 
                 </Nav>
                 <Nav>
-                    <Nav.Link className="mr-5" id="item--whatsapp" href="#deets"><FontAwesomeIcon icon={faWhatsapp} /> WhatsApp</Nav.Link>
-                    <Nav.Link className="mr-auto" id="item--email" href="#memes"><FontAwesomeIcon icon={faEnvelope} /> pedropabloopazo@gmail.com</Nav.Link>
+                    <Nav.Link className="mr-5" id="item--whatsapp" href="https://wa.me/56996230278?" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /> WhatsApp</Nav.Link>
+                    <Nav.Link className="mr-auto" id="item--email" href="mailto:mychiletour@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /> mychiletour@gmail.com</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
