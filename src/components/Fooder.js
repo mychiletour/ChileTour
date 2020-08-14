@@ -17,7 +17,7 @@ const Fooder = () => {
                     <div className="networks-container">
                         <a id="item--whatsapp" href="https://wa.me/56996230278?" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
                         <a id="item--facebook" href="https://www.facebook.com/MyChileTour/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
-                        <a id="item--instagram" href="https://www.instagram.com/mychiletour/?hl=en" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a id="item--instagram" href="https://www.instagram.com/mychiletour/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                         <a id="item--email" href="mailto:mychiletour@gmail.com" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Fooder = () => {
                 </div>
             </div>
             <Faq />
-            <div className="creditos">© 2017 - Diseñado por KevCastles. </div>
+            <div className="creditos">© 2017 - Diseñado por <a href="https://kevincastle.github.io/Portfolio/" rel="noopener noreferrer" target="_blank">KevinCastle</a>.</div>
         </div>
     )
 }
