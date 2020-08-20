@@ -27,6 +27,7 @@ export default class CardAPI extends React.Component {
                         <ItemCard
                             key={index}
                             nombre={services.nombre}
+                            precio={services.precio}
                             descripcion={services.descripcion}
                             incluye={services.incluye}
                             opcional={services.opcional}

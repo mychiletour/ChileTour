@@ -1,3 +1,8 @@
+.badge {
+    background: $red;
+    padding: 1rem 2rem;
+}
+
 .card {
     padding: $s-size;
 }
@@ -20,8 +25,15 @@
     color: $blue;
     font-size: $xl-size;
     font-weight: 800;
+}
+
+.card-title--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: $xl-size;
     margin: 3vh 0;
-    padding-left: 3vw; 
+    padding: 0 3vw; 
 }
 
 
