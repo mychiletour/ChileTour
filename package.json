@@ -1,7 +1,7 @@
 {
-  "homepage": "https://kevincastle.github.io/ChileTour/",
+  "homepage": "https://mychiletour.github.io/ChileTour/",
   "name": "mychiletour",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
@@ -58,12 +58,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KevinCastle/ChileTour.git"
+    "url": "git+https://github.com/mychiletour/ChileTour.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KevinCastle/ChileTour/issues"
+    "url": "https://github.com/mychiletour/ChileTour/issues"
   }
 }
