@@ -12,7 +12,7 @@ const Navibar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <NavDropdown className="mr-5" title="Santiago" id="collasible-nav-dropdown">
-                        <NavLink className="navlink-item" exact to="/ChileTour">Encargos y Traslados</NavLink>
+                        <NavLink className="navlink-item" exact to="/">Encargos y Traslados</NavLink>
                         <NavLink className="navlink-item" to="/SantiagoTours">Tours por Santiago</NavLink>
                     </NavDropdown>
                     <NavDropdown className="mr-5" title="Viñedos" id="collasible-nav-dropdown">

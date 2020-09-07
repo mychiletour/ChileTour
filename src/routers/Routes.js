@@ -5,7 +5,7 @@ import CardAPI from '../services/CardAPI';
 const Routes = () => {
     return (
         <div>
-            <Route exact={true} path="/ChileTour" key="Santiago">
+            <Route exact={true} path="/" key="Santiago">
                 <CardAPI url='https://api.npoint.io/cef0bf8341dd206787a2' />
             </Route>
             <Route path="/SantiagoTours" key="SantiagoTours">
