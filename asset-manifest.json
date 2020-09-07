@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ChileTour/static/css/main.edead440.chunk.css",
-    "main.js": "/ChileTour/static/js/main.8d8c6de7.chunk.js",
-    "main.js.map": "/ChileTour/static/js/main.8d8c6de7.chunk.js.map",
+    "main.js": "/ChileTour/static/js/main.142c866c.chunk.js",
+    "main.js.map": "/ChileTour/static/js/main.142c866c.chunk.js.map",
     "runtime-main.js": "/ChileTour/static/js/runtime-main.5a4e67b2.js",
     "runtime-main.js.map": "/ChileTour/static/js/runtime-main.5a4e67b2.js.map",
     "static/css/2.95cc1a2e.chunk.css": "/ChileTour/static/css/2.95cc1a2e.chunk.css",
     "static/js/2.b5a7c068.chunk.js": "/ChileTour/static/js/2.b5a7c068.chunk.js",
     "static/js/2.b5a7c068.chunk.js.map": "/ChileTour/static/js/2.b5a7c068.chunk.js.map",
     "index.html": "/ChileTour/index.html",
-    "precache-manifest.602b69ece6eb746b06b62acb9754406b.js": "/ChileTour/precache-manifest.602b69ece6eb746b06b62acb9754406b.js",
+    "precache-manifest.43e3043f1f19f6d5443083d5b9bafa51.js": "/ChileTour/precache-manifest.43e3043f1f19f6d5443083d5b9bafa51.js",
     "service-worker.js": "/ChileTour/service-worker.js",
     "static/css/2.95cc1a2e.chunk.css.map": "/ChileTour/static/css/2.95cc1a2e.chunk.css.map",
     "static/css/main.edead440.chunk.css.map": "/ChileTour/static/css/main.edead440.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.95cc1a2e.chunk.css",
     "static/js/2.b5a7c068.chunk.js",
     "static/css/main.edead440.chunk.css",
-    "static/js/main.8d8c6de7.chunk.js"
+    "static/js/main.142c866c.chunk.js"
   ]
 }
